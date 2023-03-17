@@ -5,8 +5,9 @@ const url = 'https://api.openai.com/v1/completions'
 const responseConfig = {
   model: "text-davinci-003",
   prompt: '',
-  max_tokens: 2048,
-  temperature: 0.5
+  max_tokens: 1048,
+  temperature: .1,
+  n: 3
 }
 
 const api = axios.create({
